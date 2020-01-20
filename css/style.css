@@ -1075,7 +1075,8 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #ffc61a; }
   .footer__text {
     font-size: 18px;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    line-height: 20px; }
     @media (max-width: 992.98px) {
       .footer__text {
         font-size: 14px; } }
@@ -1129,14 +1130,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     cursor: pointer;
     padding-bottom: 14px;
-    line-height: 16px;
+    line-height: 20px;
     text-align: right; }
     @media (max-width: 992.98px) {
       .footer__rline {
-        font-size: 14px; } }
+        font-size: 14px;
+        line-height: 18px; } }
     @media (max-width: 767.98px) {
       .footer__rline {
-        margin: 0 auto; } }
+        margin: 0 auto;
+        line-height: 14px; } }
     .footer__rline span {
       padding-right: 20px; }
     .footer__rline:hover {
